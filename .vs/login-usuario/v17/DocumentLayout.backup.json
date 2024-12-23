@@ -1,26 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\login-usuario\\",
+  "WorkspaceRootPath": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\aspnet-login-usuario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{168727E0-B0A5-4514-8B2B-29913FFDF708}|aspnet-login-usuario\\aspnet-login-usuario.csproj|c:\\users\\valer\\onedrive\\documentos\\projetos\\login-usuario\\aspnet-login-usuario\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{168727E0-B0A5-4514-8B2B-29913FFDF708}|aspnet-login-usuario\\aspnet-login-usuario.csproj|solutionrelative:aspnet-login-usuario\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{168727E0-B0A5-4514-8B2B-29913FFDF708}|aspnet-login-usuario\\aspnet-login-usuario.csproj|c:\\users\\valer\\onedrive\\documentos\\projetos\\aspnet-login-usuario\\aspnet-login-usuario\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{168727E0-B0A5-4514-8B2B-29913FFDF708}|aspnet-login-usuario\\aspnet-login-usuario.csproj|solutionrelative:aspnet-login-usuario\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{168727E0-B0A5-4514-8B2B-29913FFDF708}|aspnet-login-usuario\\aspnet-login-usuario.csproj|c:\\users\\valer\\onedrive\\documentos\\projetos\\login-usuario\\aspnet-login-usuario\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{168727E0-B0A5-4514-8B2B-29913FFDF708}|aspnet-login-usuario\\aspnet-login-usuario.csproj|solutionrelative:aspnet-login-usuario\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{168727E0-B0A5-4514-8B2B-29913FFDF708}|aspnet-login-usuario\\aspnet-login-usuario.csproj|c:\\users\\valer\\onedrive\\documentos\\projetos\\login-usuario\\aspnet-login-usuario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{168727E0-B0A5-4514-8B2B-29913FFDF708}|aspnet-login-usuario\\aspnet-login-usuario.csproj|solutionrelative:aspnet-login-usuario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{168727E0-B0A5-4514-8B2B-29913FFDF708}|aspnet-login-usuario\\aspnet-login-usuario.csproj|c:\\users\\valer\\onedrive\\documentos\\projetos\\login-usuario\\aspnet-login-usuario\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{168727E0-B0A5-4514-8B2B-29913FFDF708}|aspnet-login-usuario\\aspnet-login-usuario.csproj|solutionrelative:aspnet-login-usuario\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{168727E0-B0A5-4514-8B2B-29913FFDF708}|aspnet-login-usuario\\aspnet-login-usuario.csproj|c:\\users\\valer\\onedrive\\documentos\\projetos\\login-usuario\\aspnet-login-usuario\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{168727E0-B0A5-4514-8B2B-29913FFDF708}|aspnet-login-usuario\\aspnet-login-usuario.csproj|solutionrelative:aspnet-login-usuario\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{168727E0-B0A5-4514-8B2B-29913FFDF708}|aspnet-login-usuario\\aspnet-login-usuario.csproj|c:\\users\\valer\\onedrive\\documentos\\projetos\\aspnet-login-usuario\\aspnet-login-usuario\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{168727E0-B0A5-4514-8B2B-29913FFDF708}|aspnet-login-usuario\\aspnet-login-usuario.csproj|solutionrelative:aspnet-login-usuario\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,66 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\login-usuario\\aspnet-login-usuario\\Views\\Home\\Login.cshtml",
-              "RelativeDocumentMoniker": "aspnet-login-usuario\\Views\\Home\\Login.cshtml",
-              "ToolTip": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\login-usuario\\aspnet-login-usuario\\Views\\Home\\Login.cshtml",
-              "RelativeToolTip": "aspnet-login-usuario\\Views\\Home\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T19:11:10.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\login-usuario\\aspnet-login-usuario\\Program.cs",
-              "RelativeDocumentMoniker": "aspnet-login-usuario\\Program.cs",
-              "ToolTip": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\login-usuario\\aspnet-login-usuario\\Program.cs",
-              "RelativeToolTip": "aspnet-login-usuario\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
+              "Title": "UsuarioModel.cs",
+              "DocumentMoniker": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\aspnet-login-usuario\\aspnet-login-usuario\\Models\\UsuarioModel.cs",
+              "RelativeDocumentMoniker": "aspnet-login-usuario\\Models\\UsuarioModel.cs",
+              "ToolTip": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\aspnet-login-usuario\\aspnet-login-usuario\\Models\\UsuarioModel.cs",
+              "RelativeToolTip": "aspnet-login-usuario\\Models\\UsuarioModel.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T19:10:17.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\login-usuario\\aspnet-login-usuario\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "aspnet-login-usuario\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\login-usuario\\aspnet-login-usuario\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "aspnet-login-usuario\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T19:09:07.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\login-usuario\\aspnet-login-usuario\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "aspnet-login-usuario\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\login-usuario\\aspnet-login-usuario\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "aspnet-login-usuario\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T19:06:33.284Z",
+              "WhenOpened": "2024-12-23T19:28:51.275Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\login-usuario\\aspnet-login-usuario\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "aspnet-login-usuario\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\login-usuario\\aspnet-login-usuario\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "aspnet-login-usuario\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Title": "ResponseModel.cs",
+              "DocumentMoniker": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\aspnet-login-usuario\\aspnet-login-usuario\\Models\\ResponseModel.cs",
+              "RelativeDocumentMoniker": "aspnet-login-usuario\\Models\\ResponseModel.cs",
+              "ToolTip": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\aspnet-login-usuario\\aspnet-login-usuario\\Models\\ResponseModel.cs",
+              "RelativeToolTip": "aspnet-login-usuario\\Models\\ResponseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T19:05:30.631Z",
+              "WhenOpened": "2024-12-23T19:25:15.029Z",
               "EditorCaption": ""
             }
           ]

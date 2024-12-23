@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\login-usuario\\aspnet-login-usuario\\aspnet-login-usuario.csproj": {}
+    "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\aspnet-login-usuario\\aspnet-login-usuario\\aspnet-login-usuario.csproj": {}
   },
   "projects": {
-    "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\login-usuario\\aspnet-login-usuario\\aspnet-login-usuario.csproj": {
+    "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\aspnet-login-usuario\\aspnet-login-usuario\\aspnet-login-usuario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\login-usuario\\aspnet-login-usuario\\aspnet-login-usuario.csproj",
+        "projectUniqueName": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\aspnet-login-usuario\\aspnet-login-usuario\\aspnet-login-usuario.csproj",
         "projectName": "aspnet-login-usuario",
-        "projectPath": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\login-usuario\\aspnet-login-usuario\\aspnet-login-usuario.csproj",
+        "projectPath": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\aspnet-login-usuario\\aspnet-login-usuario\\aspnet-login-usuario.csproj",
         "packagesPath": "C:\\Users\\valer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\login-usuario\\aspnet-login-usuario\\obj\\",
+        "outputPath": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\aspnet-login-usuario\\aspnet-login-usuario\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
