@@ -13,6 +13,12 @@ namespace aspnet_login_usuario.Controllers
             return View();
         }
 
+        [HttpGet]
+        public IActionResult Registrar() 
+        {
+            return View();
+        }
+
         [HttpPost]
         public IActionResult Login(UsuarioLoginDto usuarioLoginDto)
         {
