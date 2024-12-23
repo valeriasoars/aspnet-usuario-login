@@ -67,3 +67,6 @@ C:\Users\valer\OneDrive\Documentos\Projetos\aspnet-login-usuario\aspnet-login-us
 C:\Users\valer\OneDrive\Documentos\Projetos\aspnet-login-usuario\aspnet-login-usuario\obj\Debug\net8.0\aspnet-login-usuario.pdb
 C:\Users\valer\OneDrive\Documentos\Projetos\aspnet-login-usuario\aspnet-login-usuario\obj\Debug\net8.0\aspnet-login-usuario.genruntimeconfig.cache
 C:\Users\valer\OneDrive\Documentos\Projetos\aspnet-login-usuario\aspnet-login-usuario\obj\Debug\net8.0\ref\aspnet-login-usuario.dll
+C:\Users\valer\OneDrive\Documentos\Projetos\aspnet-login-usuario\aspnet-login-usuario\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\valer\OneDrive\Documentos\Projetos\aspnet-login-usuario\aspnet-login-usuario\obj\Debug\net8.0\aspnet-login-usuario.csproj.AssemblyReference.cache
+C:\Users\valer\OneDrive\Documentos\Projetos\aspnet-login-usuario\aspnet-login-usuario\obj\Debug\net8.0\aspnet-l.2139C9FC.Up2Date
