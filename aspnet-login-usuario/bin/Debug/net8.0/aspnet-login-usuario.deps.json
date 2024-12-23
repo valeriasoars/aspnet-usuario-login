@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "aspnet-login-usuario/1.0.0": {
+        "runtime": {
+          "aspnet-login-usuario.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "aspnet-login-usuario/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
