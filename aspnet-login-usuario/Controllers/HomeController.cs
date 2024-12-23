@@ -7,6 +7,15 @@ namespace aspnet_login_usuario.Controllers
     public class HomeController : Controller
     {
 
+        Uri baseUrl = new Uri("https://localhost:7066/api");
+
+        private readonly HttpClient _httpClient;
+        public HomeController(HttpClient httpClient)
+        {
+            _httpClient = httpClient;
+            _httpClient.BaseAddress = baseUrl;
+        }
+
         [HttpGet]
         public IActionResult Login()
         {
