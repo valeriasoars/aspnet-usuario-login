@@ -1,5 +1,7 @@
-﻿
+﻿@using aspnet_login_usuario.Dto.Login
+@model UsuarioLoginDto
 
+<div asp-validation-summary="All" class="text-danger"></div>
 
 
 <h1>Sistema de Usuários</h1>
@@ -7,12 +9,12 @@
     <form asp-action="Login" asp-controller="Home" method="post">
         <div class="mb-3">
             <label class="form-label">Email:</label>
-            <input class="form-control" type="text"/>
+            <input class="form-control" type="email" asp-for="Email"/>
         </div>
 
         <div class="mb-3">
             <label class="form-label">Senha:</label>
-            <input class="form-control" type="password" />
+            <input class="form-control" type="password" asp-for="Senha" />
         </div>
 
         <button type="submit" class="btn btn-success w-100 mb-2">Entrar</button>
