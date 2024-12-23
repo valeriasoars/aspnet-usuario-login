@@ -1,1 +1,21 @@
-﻿<p>Login</p>
+﻿
+
+
+
+<h1>Sistema de Usuários</h1>
+<div class="container mt-5">
+    <form asp-action="Login" asp-controller="Home" method="post">
+        <div class="mb-3">
+            <label class="form-label">Email:</label>
+            <input class="form-control" type="text"/>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Senha:</label>
+            <input class="form-control" type="password" />
+        </div>
+
+        <button type="submit" class="btn btn-success w-100 mb-2">Entrar</button>
+        <a  asp-action="Registrar" asp-controller="Home" class="btn btn-secondary w-100"  >Cadastrar-se</a>
+    </form>
+</div>

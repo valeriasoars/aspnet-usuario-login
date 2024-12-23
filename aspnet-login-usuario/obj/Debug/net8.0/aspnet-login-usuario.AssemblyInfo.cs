@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("aspnet-login-usuario")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ae9038f461934934e1768973fdc64e62d812ec9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd32f02a2b2686c2d030a247a66aaaa377ac4bc2")]
 [assembly: System.Reflection.AssemblyProductAttribute("aspnet-login-usuario")]
 [assembly: System.Reflection.AssemblyTitleAttribute("aspnet-login-usuario")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
