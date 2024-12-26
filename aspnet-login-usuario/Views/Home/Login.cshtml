@@ -1,6 +1,21 @@
 ﻿@using aspnet_login_usuario.Dto.Login
 @model UsuarioLoginDto
 
+@if (TempData["MensagemErro"] != null)
+{
+    <div class="alert alert-danger text-dark" role="alert">
+        @TempData["MensagemErro"]
+    </div>
+}
+
+@if (TempData["MensagemSucesso"] != null)
+{
+    <div class="alert alert-success text-dark" role="alert">
+        @TempData["MensagemSucesso"]
+    </div>
+}
+
+
 <div asp-validation-summary="All" class="text-danger"></div>
 
 

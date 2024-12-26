@@ -1,1 +1,15 @@
-﻿<p>hiiiii listagem de usuarios</p>
+﻿@if (TempData["MensagemErro"] != null)
+{
+    <div class="alert alert-danger text-dark" role="alert">
+        @TempData["MensagemErro"]
+    </div>
+}
+
+@if (TempData["MensagemSucesso"] != null)
+{
+    <div class="alert alert-success text-dark" role="alert">
+        @TempData["MensagemSucesso"]
+    </div>
+}
+
+<p>hiiiii listagem de usuarios</p>

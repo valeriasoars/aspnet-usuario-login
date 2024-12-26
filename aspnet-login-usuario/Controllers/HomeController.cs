@@ -63,12 +63,15 @@ namespace aspnet_login_usuario.Controllers
 
                 if(usuario.Status == false)
                 {
+                    TempData["MensagemErro"] = "Credenciais inválidas!";
                     return View(usuarioLoginDto);
                 }
 
 
                 // criar sessao com o usuário que se logou
                 _sessaoInterface.CriarSessao(usuario.Dados);
+
+                TempData["MensagemSucesso"] = "Usuário logado!";
 
 
                 return RedirectToAction("ListarUsuario");
@@ -103,9 +106,12 @@ namespace aspnet_login_usuario.Controllers
 
                 if(usuario.Status == false)
                 {
+                    TempData["MensagemErro"] = "Ocorreu um erro ao realizar o processo, procure pelo suporte!";
                     return View(usuarioCriacaoDto);
                 }
 
+
+                TempData["MensagemSucesso"] = usuario.Mensagem;
                 return RedirectToAction("Login");
 
             }
