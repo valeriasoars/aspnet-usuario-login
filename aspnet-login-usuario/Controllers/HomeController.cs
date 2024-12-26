@@ -3,6 +3,7 @@ using System.Text;
 using aspnet_login_usuario.Dto.Login;
 using aspnet_login_usuario.Dto.Usuario;
 using aspnet_login_usuario.Models;
+using aspnet_login_usuario.Service.Sessao;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
@@ -14,10 +15,12 @@ namespace aspnet_login_usuario.Controllers
         Uri baseUrl = new Uri("https://localhost:7066/api");
 
         private readonly HttpClient _httpClient;
-        public HomeController(HttpClient httpClient)
+        private readonly ISessao _sessaoInterface;
+        public HomeController(HttpClient httpClient, ISessao sessaoInterface )
         {
             _httpClient = httpClient;
             _httpClient.BaseAddress = baseUrl;
+            _sessaoInterface = sessaoInterface;
         }
 
         [HttpGet]
@@ -62,6 +65,11 @@ namespace aspnet_login_usuario.Controllers
                 {
                     return View(usuarioLoginDto);
                 }
+
+
+                // criar sessao com o usuário que se logou
+                _sessaoInterface.CriarSessao(usuario.Dados);
+
 
                 return RedirectToAction("ListarUsuario");
             }
