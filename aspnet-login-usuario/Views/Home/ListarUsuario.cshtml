@@ -1,4 +1,8 @@
-﻿@if (TempData["MensagemErro"] != null)
+﻿@using aspnet_login_usuario.Models
+@model IEnumerable<UsuarioModel>
+
+
+@if (TempData["MensagemErro"] != null)
 {
     <div class="alert alert-danger text-dark" role="alert">
         @TempData["MensagemErro"]
@@ -12,4 +16,10 @@
     </div>
 }
 
-<p>hiiiii listagem de usuarios</p>
+
+<ul>
+    @foreach (var usuario in Model)
+    {
+        <li>@usuario.Email</li>
+    }
+</ul>
