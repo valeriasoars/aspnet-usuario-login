@@ -37,6 +37,43 @@ namespace aspnet_login_usuario.Controllers
         }
 
         [HttpGet]
+        public async Task<IActionResult> EditarUsuario(int id)
+        {
+            UsuarioModel usuario = _sessaoInterface.BuscarSessao();
+            if (usuario == null)
+            {
+                TempData["MensagemErro"] = "È necessário estar logado para acessar essa página!";
+                return RedirectToAction("Login");
+            }
+
+            ResponseModel<UsuarioModel> usuarioApi = new ResponseModel<UsuarioModel>();
+
+            using (var requestMessage = new HttpRequestMessage(HttpMethod.Get, _httpClient.BaseAddress + "/Usuario/" + Convert.ToInt32(id)))
+            {
+                requestMessage.Headers.Authorization = new AuthenticationHeaderValue("Bearer", usuario.Token);
+
+                HttpResponseMessage response = await _httpClient.SendAsync(requestMessage);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var data = response.Content.ReadAsStringAsync().Result;
+                    usuarioApi = JsonConvert.DeserializeObject<ResponseModel<UsuarioModel>>(data);
+                }
+
+                var usuarioEdicaoDto = new UsuarioEdicaoDto
+                {
+                    Id = usuarioApi.Dados.Id,
+                    Nome = usuarioApi.Dados.Nome,
+                    Sobrenome = usuarioApi.Dados.Sobrenome,
+                    Email = usuarioApi.Dados.Email,
+                    Usuario = usuarioApi.Dados.Usuario
+                };
+
+                return View(usuarioEdicaoDto);
+            }
+        }
+
+        [HttpGet]
         public async Task<IActionResult> ListarUsuario() 
         {
             UsuarioModel usuario = _sessaoInterface.BuscarSessao();
