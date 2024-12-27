@@ -134,6 +134,14 @@ namespace aspnet_login_usuario.Controllers
         }
 
 
+        [HttpGet]
+        public IActionResult Logout()
+        {
+            _sessaoInterface.RemoverSessao();
+            return RedirectToAction("Login");
+        }
+
+
 
 
 
