@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{168727E0-B0A5-4514-8B2B-29913FFDF708}|aspnet-login-usuario\\aspnet-login-usuario.csproj|c:\\users\\valer\\onedrive\\documentos\\projetos\\aspnet-login-usuario\\aspnet-login-usuario\\views\\home\\listarusuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{168727E0-B0A5-4514-8B2B-29913FFDF708}|aspnet-login-usuario\\aspnet-login-usuario.csproj|solutionrelative:aspnet-login-usuario\\views\\home\\listarusuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{168727E0-B0A5-4514-8B2B-29913FFDF708}|aspnet-login-usuario\\aspnet-login-usuario.csproj|c:\\users\\valer\\onedrive\\documentos\\projetos\\aspnet-login-usuario\\aspnet-login-usuario\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{168727E0-B0A5-4514-8B2B-29913FFDF708}|aspnet-login-usuario\\aspnet-login-usuario.csproj|solutionrelative:aspnet-login-usuario\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\aspnet-login-usuario\\aspnet-login-usuario\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "aspnet-login-usuario\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\aspnet-login-usuario\\aspnet-login-usuario\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "aspnet-login-usuario\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAkwD8AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T23:16:51.567Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ListarUsuario.cshtml",
               "DocumentMoniker": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\aspnet-login-usuario\\aspnet-login-usuario\\Views\\Home\\ListarUsuario.cshtml",
               "RelativeDocumentMoniker": "aspnet-login-usuario\\Views\\Home\\ListarUsuario.cshtml",
-              "ToolTip": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\aspnet-login-usuario\\aspnet-login-usuario\\Views\\Home\\ListarUsuario.cshtml",
-              "RelativeToolTip": "aspnet-login-usuario\\Views\\Home\\ListarUsuario.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAuwBcAAAAFAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\valer\\OneDrive\\Documentos\\Projetos\\aspnet-login-usuario\\aspnet-login-usuario\\Views\\Home\\ListarUsuario.cshtml*",
+              "RelativeToolTip": "aspnet-login-usuario\\Views\\Home\\ListarUsuario.cshtml*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-26T23:15:57.343Z",
+              "WhenOpened": "2024-12-26T23:59:46.925Z",
               "EditorCaption": ""
             }
           ]
